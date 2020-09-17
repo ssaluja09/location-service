@@ -3,7 +3,7 @@ PoC on apache-ignite
 
 Steps to run  **location-service**:
 
-1. Install Apache-ignite 2.8.1 from : https://ignite.apache.org/download.cgi#maven
+1. Install Apache-ignite 2.8.1 from : https://ignite.apache.org/download.cgi
 2. Go to the bin folder of Ignite installation directory `{ignite}/bin` from the command shell and start an Ignite-node: `./ignite.sh` 
 3. In a text editor, open the `{ignite}/examples/sql/world.sql` file.
 4. Update the **VALUE_TYPE** of `CREATE TABLE Country` to: `com.ignitepoc.location.model.Country`
